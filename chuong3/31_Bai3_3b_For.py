@@ -1,6 +1,4 @@
-for i in range(1,10):
-    print(" "*((i-i)//2),end="")
-    for j in range(1,i+1):
-        # print(" "*((i-i)//2),end="")
-        print("*",end="")
-    print()
+n=17
+for i in range(1,n+1,2):
+    print(((n-i)//2)*" ",i*"*",sep="")
+print()
