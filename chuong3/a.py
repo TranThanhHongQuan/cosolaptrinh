@@ -91,9 +91,20 @@
 #     print("")
 #     i+=1
 
-n=6
-for i in range(1,n+1):
-    print(" ","*"*i,sep="")
-    print()
+# n=6
+# for i in range(1,n+1):
+#     print(" ","*"*i,sep="")
+#     print()
+
+# char=input()
+# n=int(input())
+# i=1
+# while i<=n:
+#     j=1
+#     while j<=i:
+#         print(char,end=" ")
+#         j+=1
+#     print()
+#     i+=1
     
 
