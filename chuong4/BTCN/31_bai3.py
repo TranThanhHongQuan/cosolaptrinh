@@ -25,7 +25,6 @@ def inkq(x1,x2):
         print("Phuong trinh co hai nghiem")
         print("x1=",x1,sep="")
         print("x2=",x2,sep="")
-        
 a,b,c=nhap()
 x1,x2=giaipt(a,b,c)
 inkq(x1,x2)
