@@ -1,6 +1,6 @@
 def nhap():
     L=[]
-    n=int(input("n="))
+    n=int(input())
     for i in range(n):
         a=int(input())
         L=L+[a]
@@ -12,5 +12,4 @@ def count(L):
     return dem
 L=nhap()
 c=count(L)
-print("so cac phan tu trong list la:",c)
-print(L)
+print(c)

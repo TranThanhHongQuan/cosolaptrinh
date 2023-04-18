@@ -1,7 +1,7 @@
 def nhap():
-    x=int(input("x="))
+    x=int(input())
     L=[]
-    n=int(input("n="))
+    n=int(input())
     for i in range(n):
         a=int(input())
         L=L+[a]
@@ -13,5 +13,4 @@ def search(L, x):
     return None
 L,x=nhap()
 a=search(L,x)
-print("vi tri cua x trong L la:",a)
-print(L)
+print(a)

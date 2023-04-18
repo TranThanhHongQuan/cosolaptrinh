@@ -1,7 +1,7 @@
 def nhap():
-    x=int(input("x="))
+    x=int(input())
     L=[]
-    n=int(input("n="))
+    n=int(input())
     for i in range(n):
         a=int(input())
         L=L+[a]

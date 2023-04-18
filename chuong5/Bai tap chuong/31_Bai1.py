@@ -1,20 +1,17 @@
 def nhap():
-    x=int(input("x="))
-    k=int(input("k="))
-    n=int(input("n="))
+    x=int(input())
+    k=int(input())
+    n=int(input())
     L=[]
     for i in range(1,n+1):
-        y=int(input("y="))
+        y=int(input())
         L=L+[y]
     return L,x,k
 def add(L,x,k):
     if k>(len(L)):
         L=L+[x]
     else:
-        L[k]=x
+        L=L[:k]+[x]+L[k:]
     return L
-def  InKQ(L):
-    print(L)
 L,x,k=nhap()
-L=add(L,x,k)
-InKQ(L)
+print(add(L,x,k))

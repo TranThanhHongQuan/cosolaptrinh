@@ -1,8 +1,8 @@
 def nhap():
-    x=int(input("x="))
-    y=int(input("y="))
+    x=int(input())
+    y=int(input())
     L=[]
-    n=int(input("n="))
+    n=int(input())
     for i in range(n):
         a=int(input())
         L=L+[a]
