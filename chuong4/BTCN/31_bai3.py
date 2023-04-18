@@ -28,5 +28,3 @@ def inkq(x1,x2):
 a,b,c=nhap()
 x1,x2=giaipt(a,b,c)
 inkq(x1,x2)
-
-        
